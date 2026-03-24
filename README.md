@@ -43,8 +43,8 @@ Legacy notes for manual exports (bills.com, ADP) live in `README.txt`.
 
 ## Security
 
-- Never commit **`.env`**, **`tokens.json`**, or real account passwords.
-- Rotate Intuit and Snowflake credentials if they were ever exposed in code or a public repository.
+- Never commit **`.env`**, **`tokens.json`**, or real account passwords. This repository’s `.gitignore` excludes those files and **`*.csv`** exports so local data and secrets stay off GitHub.
+- Rotate Intuit and Snowflake credentials if they were ever committed, pasted, or shared.
 
 ## License
 
