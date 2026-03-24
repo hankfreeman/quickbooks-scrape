@@ -1,0 +1,18 @@
+# Secrets and local config
+.env
+tokens.json
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Exported / generated data
+*.csv
